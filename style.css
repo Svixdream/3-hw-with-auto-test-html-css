@@ -9,6 +9,7 @@
     margin: 0 auto;
     width: 100%;
     /* 📍 Максимальная ширина для контейнера */
+    padding: 0 15px;
     max-width: 1170px;
     margin-left: auto;
     margin-right: auto;
@@ -35,14 +36,23 @@ header span {
     padding: 60px 0;
     min-height: 100vh;
     /* 📍 Свойства flexbox для размещения container-a вертикально по центру */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
 }
 
 .main-section .wrapper {
     /* 📍 Свойствa flexbox для размещения блока с текстом и изображения в ряд, и центрирования их по вертикали */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1024px;
 }
 
 .text-wrapper {
     /* 📍 Cвойство для ограничения ширины блока с текстом в первой секции */
+    max-width: 425px;
 }
 
 .main-title {
